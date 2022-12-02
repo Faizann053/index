@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+ <title>Css Template</title>
+ <style>
+ #maindiv
+ {
+     width:800px;
+     margin:auto;
+ }
+ #header
+ {
+     height:150px;
+     background: #07355d;
+ }
+ #menu
+ {
+   height: 35px;
+   background: #c2d2e0;
+ } 
+ 
+ #footer
+ {
+     height: 25px;
+     background:  #c2d2e0;
+ }
+ #content1
+ {
+     height: 400px;
+     background: #f8f9e7;
+     width:30%;
+     float:left;
+ }
+ #content2
+ {
+     height: 400px;
+     background: #e8cece;
+     width:70%;
+     float:right;
+ }
+ #logo1
+ {
+     margin-top:30px;
+     margin-left: 50px;
+ }
+ #logo2
+ {
+     float:right;
+ }
+  #menu a /*Nested Selector */ 
+ {
+     text-decoration: none;
+     text-transform: uppercase;
+     margin-right:35px;
+     font-size: 18px;
+     font-weight: bold;
+     color:brown;
+ }
+ table
+ {
+   /*
+   border: 2px solid #07355d;
+   margin-top: 50px;
+   margin-left:90px;
+   
+   */
+   padding-top: 50px;
+   padding-left:90px;
+     
+ }
+ </style>
+    </head>
+    <body>
+        <div id="maindiv">
+            <div id="header">
+     <img src="mylogo.gif"
+height="80" width="180"  id="logo1"    >
+     
+<img src="header_image.jpg"
+     height="150" id="logo2" >
+            </div>
+<div id="menu">
+    <a href="#" style="margin-left:15px">home</a>
+    <a href="#">services</a>
+    <a href="#">about us</a>
+    <a href="#">contact us</a>
+    <a href="#">faq</a>
+    <a href="#">login</a>
+                
+</div>
+ <div id="content1">
+     <marquee direction="up"
+              height="400">     
+     <img src="images/course1.jpeg"
+          width="250" height="150">
+     <br>
+     <img src="images/course2.jpeg"
+          width="250" height="150">
+     <br>
+     <img src="images/course3.png"
+          width="250" height="150">
+     <br>
+     <img src="images/course4.jpeg"
+          width="250" height="150">
+     </marquee>                
+ </div>
+            
+ <div id="content2">
+     <table>
+         <tr>
+<td>Email Id*</td>
+<td>
+    <input type="email" required>
+</td>             
+         </tr>
+<tr>
+<td>Password*</td>
+<td>
+    <input type="password" required>
+</td>             
+         </tr>
+<tr>
+    <td colspan="4">
+    <input type="submit" value="sign in"
+           style="margin-left:73px;
+           width:50px">
+    <a href="#" style="margin-left:50px"
+       
+       >Sign Up</a>
+</td>             
+
+         </tr>         
+     </table>
+     
+ </div>
+ 
+ 
+ 
+  <br style="clear:both">
+ <div id="footer">
+     <div style="text-align:center;
+          color:brown;
+          font-weight: bold;
+          ">
+         &COPY;UNIVERSAL INFORMATICS 2021
+     </div>              
+  </div>
+        </div>
+    </body>
+</html>
+
